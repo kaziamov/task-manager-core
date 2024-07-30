@@ -1,12 +1,14 @@
 [tool.poetry]
-name = "task-manager-core"
+name = "task-manager"
 version = "0.1.0"
 description = ""
 authors = ["Kaziamov <kaziamov@outlook.com>"]
 readme = "README.md"
+packages = [ { include = 'task_manager' } ]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pydantic = "^2.8.2"
 
 
 [build-system]
